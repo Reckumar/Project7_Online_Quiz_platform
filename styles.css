@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style the quiz container */
+#quiz-container {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  width: 500px;
+  margin:50px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the quiz title */
+h1 {
+  color: #2E4374;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Style the question text */
+#question-container {
+  padding: 20px;
+  border: 1px solid #3498db;
+  background-color: #12486B;
+  border-radius: 10px;
+}
+
+#question {
+  color: #F5FCCD;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+/* Style the options container */
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 20px;
+}
+
+/* Style answer options */
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  font-size: 18px;
+  margin: 8px 0;
+  padding: 12px 24px;
+  background-color: #419197;
+  color: #F5FCCD;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+label:hover {
+  background-color: #2980b9;
+}
+
+/* Style buttons */
+#button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: #04364A;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Style submit button */
+#submit-button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: #219a52;
+}
+.foot{
+  height: 30px;
+  background-color: #414141;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

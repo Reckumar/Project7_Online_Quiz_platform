@@ -111,3 +111,10 @@ button:hover {
   text-align: center;
   padding: 10px;
 }
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 5px;
+}
